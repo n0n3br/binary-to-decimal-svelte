@@ -62,6 +62,6 @@
 	  width: 50%;
 	}
 	.section { 
-		padding: 1rem;
+		padding: 1rem !important;
 	}
 </style> 
