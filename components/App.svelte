@@ -5,19 +5,19 @@
 	<div class='hero-body'>
 		<div class='container has-text-centered is-fluid'>
 		<div class='columns'>
-		<div class='column is-one-third is-offset-one-third'>
+		<div class='column is-one-third-desktop is-offset-one-third-desktop is-half-tablet is-offset-one-quarter-tablet'>
 			<h1 class='title'>#b2d</h1>
 			<h2 class='subtitle'>binary to decimal converter</h2>
-		<section class='section is-medium'>
+		<section class='section'>
 			<h2 class='subtitle'>Choose your binary size in bytes (1 byte = 8 bits)</h2>
 			<input class='input is-fullwidth is-large has-text-centered' type='number' bind:value={size} min="1">
 		</section>
-			<section class='section is-medium'>
+			<section class='section'>
    			<h2 class='subtitle'>... type the binary here</h2>
 				<input bind:value={binary} class='input is-fullwidth is-large has-text-centered' maxlength={maxlength}
 				 placeholder='type the binary here' on:keydown={onKeydownHandler} />
 			</section>
-			<section class='section is-medium'>
+			<section class='section'>
 				<h2 class='subtitle'>.. and get the decimal number here</h2>
 				<input value={decimal} class='input is-static has-text-white is-fullwidth is-large is-danger has-text-centered'
 				 readonly />
